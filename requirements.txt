@@ -19,3 +19,4 @@ transformers==4.28.1
 bitsandbytes==0.38.1; platform_system != "Windows"
 llama-cpp-python==0.1.45; platform_system != "Windows"
 https://github.com/abetlen/llama-cpp-python/releases/download/v0.1.45/llama_cpp_python-0.1.45-cp310-cp310-win_amd64.whl; platform_system == "Windows"
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
